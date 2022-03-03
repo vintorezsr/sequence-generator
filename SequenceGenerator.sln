@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SequenceGenerator", "src\SequenceGenerator\SequenceGenerator.csproj", "{584A7E42-E9CD-4044-8ACB-BF27291E21A9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SequenceGenerator.Tests", "tests\SequenceGenerator.Tests\SequenceGenerator.Tests.csproj", "{7F2FBB43-80A2-48C0-B724-E78603E98827}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SequenceGenerator.EntityFramework", "src\SequenceGenerator.EntityFramework\SequenceGenerator.EntityFramework.csproj", "{965D3F85-DFF8-462B-9E08-1A6823A736FB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SequenceGenerator.EntityFramework.Tests", "tests\SequenceGenerator.EntityFramework.Tests\SequenceGenerator.EntityFramework.Tests.csproj", "{FBE20F30-D083-4C0C-9922-0B7BF0556F98}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SequenceGenerator.MongoDb", "src\SequenceGenerator.MongoDb\SequenceGenerator.MongoDb.csproj", "{33AE44C6-5A3A-47E0-8302-5C707F43F31C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SequenceGenerator.MongoDb.Tests", "tests\SequenceGenerator.MongoDb.Tests\SequenceGenerator.MongoDb.Tests.csproj", "{8F7A98CB-5277-4043-AC83-549C92F393FF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{584A7E42-E9CD-4044-8ACB-BF27291E21A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{584A7E42-E9CD-4044-8ACB-BF27291E21A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{584A7E42-E9CD-4044-8ACB-BF27291E21A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{584A7E42-E9CD-4044-8ACB-BF27291E21A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F2FBB43-80A2-48C0-B724-E78603E98827}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F2FBB43-80A2-48C0-B724-E78603E98827}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F2FBB43-80A2-48C0-B724-E78603E98827}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F2FBB43-80A2-48C0-B724-E78603E98827}.Release|Any CPU.Build.0 = Release|Any CPU
+		{965D3F85-DFF8-462B-9E08-1A6823A736FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{965D3F85-DFF8-462B-9E08-1A6823A736FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{965D3F85-DFF8-462B-9E08-1A6823A736FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{965D3F85-DFF8-462B-9E08-1A6823A736FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBE20F30-D083-4C0C-9922-0B7BF0556F98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBE20F30-D083-4C0C-9922-0B7BF0556F98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBE20F30-D083-4C0C-9922-0B7BF0556F98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBE20F30-D083-4C0C-9922-0B7BF0556F98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33AE44C6-5A3A-47E0-8302-5C707F43F31C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33AE44C6-5A3A-47E0-8302-5C707F43F31C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33AE44C6-5A3A-47E0-8302-5C707F43F31C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33AE44C6-5A3A-47E0-8302-5C707F43F31C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F7A98CB-5277-4043-AC83-549C92F393FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F7A98CB-5277-4043-AC83-549C92F393FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F7A98CB-5277-4043-AC83-549C92F393FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F7A98CB-5277-4043-AC83-549C92F393FF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DC51B519-D486-4D53-8BF3-81143F9DDC9D}
+	EndGlobalSection
+EndGlobal
